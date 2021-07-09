@@ -112,7 +112,15 @@ body, html{
    .img1, .img2, .img3, .img4, .img5, .img6{
        padding:20px 0;
    }
-
+   #services{
+       color:#bbbbbb;
+       font-size: 20px;
+       padding:10px 0;
+   }
+   #clients{
+       font-size: 20px;
+       font-weight: 700;
+   }
    .projects{height:500px;}
 }
 

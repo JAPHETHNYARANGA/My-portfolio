@@ -414,4 +414,7 @@ body, html{
     .landing-image{
         margin-left: 20%;
     }
+    .about,.service-h,.clients, .projects, .contact1{
+        text-align: center;
+    }
 }

@@ -441,6 +441,7 @@ body, html{
     #same{
         width:300px;
         height:200px;
+        padding:20px 0;
     }
     .img1, .img2, .img3,.img4,.img5,.img6{
         display: flex;
@@ -453,5 +454,22 @@ body, html{
         font-weight:700;
         font-size: 30px;
         margin: 100px 0 0 100px;
+    }
+
+    /* projects section */
+
+
+
+    /* contact section*/
+
+    .contact{
+        color:white;
+        background-color: black;
+    }
+    .form{
+        width:60%;
+        position:relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

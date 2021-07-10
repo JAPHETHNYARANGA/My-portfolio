@@ -407,8 +407,9 @@ body, html{
     .landing{
        display: flex;
        position: relative;
-       left:50%;
-       transform: translateX(-50%);
+       left:10%;
+       padding-bottom: 5rem;
+       
 
     }
     .landing-image{

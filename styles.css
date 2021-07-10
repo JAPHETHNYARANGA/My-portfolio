@@ -330,7 +330,7 @@ body, html{
         
         
     }
-    
+   
     
     .nav ul li{
        
@@ -352,6 +352,102 @@ body, html{
         text-decoration: none;
         margin:0 0.5rem;
     } 
+    #blue, #thir{
+        font-size: 40px;
+    }
+    
+    .landing{
+       display: flex;
+       margin: 0 0 0 10rem;
+       padding-bottom: 5rem;
+       
+
+    }
+    .landing-image{
+        margin-left: 20%;
+    }
+    .about,.service-h,.clients, .projects, .contact1{
+        text-align: center;
+    }
+    .about-text{
+        font-size: 30px;
+        color:gray;
+        text-align: center;
+    }
+    .about-image{
+        display: none;
+    }
+
+    /*services section */
+
+    #clients{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .services{
+        padding-top: 4rem;
+       
+    }
+    #same{
+        width:300px;
+        height:200px;
+        padding:20px 0;
+    }
+    .img1, .img2, .img3,.img4,.img5,.img6{
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 0 20rem;
+       
+    }
+    #services{
+        color:#bbbbbb;
+        font-weight:700;
+        font-size: 30px;
+        margin: 100px 0 0 100px;
+    }
+
+    /* projects section */
+
+
+
+    /* contact section*/
+
+    .contact{
+        color:white;
+        background-color: black;
+        padding:3rem 0;
+    }
+    .form{
+        text-align: center;
+        width:60%;
+        position:relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*footer section*/
+    .footer{
+        background-color:gray;
+         color:white;
+         font-weight: 700;
+         
+    }
+    .icons{
+        display: flex;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .fab, .far,.fas{
+        padding:20px;
+        margin-left: 10%;
+       
+      
+    }
+    #last{
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
     
 
 }

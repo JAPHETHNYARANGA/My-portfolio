@@ -8,6 +8,7 @@ openBtn.addEventListener('click', ()=>{
     sideBarMenu.style.width = "250px";
 })
 closeBtn.addEventListener('click', ()=>{
-    sideBarMenu.style.width="0";
+    if(window.innerWidth < 769){
+        sideBarMenu.style.width="0";
+    }
 })
-

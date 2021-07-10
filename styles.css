@@ -121,8 +121,37 @@ body, html{
        font-size: 20px;
        font-weight: 700;
    }
-   .projects{height:500px;}
-}
+
+   /*project section */
+   .projects{
+       text-align: center;
+   }
+
+   /*contact section */
+   .contact{
+       text-align: center;
+       color:white;
+       background-color: black;
+   }
+   .form{
+       width:60%;
+       text-align: center;
+       position:relative;
+       left:50%;
+       transform:translateX(-50%);
+       
+   }
+   .btn{
+       margin:20px 0;
+       width:40%;
+   }
+
+   /*footer*/
+   .footer{
+       background-color:blue;
+   }
+  
+   }   
 
 
 

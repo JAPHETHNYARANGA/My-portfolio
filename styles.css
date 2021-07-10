@@ -17,6 +17,7 @@ body, html{
         font-size:30px;
         cursor:pointer;
     } */
+    .navi{display: none;}
     .icon{
         position:fixed;
         top:0;
@@ -163,6 +164,7 @@ body, html{
 
 /* small tablet screens*/
 @media only screen and (max-width: 768px) and (min-width: 481px){
+    .navi{display: none;}
    .fas{
        position:relative;
        top:10px;
@@ -321,6 +323,9 @@ body, html{
 
 /*large tablet screens and laptops*/
 @media only screen and (max-width: 1024px) and (min-width: 769px){
+    .right{
+        display: none;
+    }
     .fas{
         display:none;
     }
@@ -464,6 +469,9 @@ body, html{
 
 /* desktop screens and larger*/
 @media only screen and (min-width:1025px){
+    .right{
+        display: none;
+    }
   
     .fas{
         display:none;

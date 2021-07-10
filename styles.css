@@ -426,4 +426,19 @@ body, html{
     .about-image{
         display: none;
     }
+
+    /*services section */
+
+    #clients{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .services{
+        padding-top: 4rem;
+    }
+    #same{
+        width:300px;
+        height:200px;
+    }
 }

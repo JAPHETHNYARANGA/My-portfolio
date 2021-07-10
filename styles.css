@@ -151,6 +151,7 @@ body, html{
         color: black;
         font-weight: 700;
     }
+   
 }
 
 /* small tablet screens*/
@@ -302,6 +303,21 @@ body, html{
        color: black;
        font-weight: 700;
    }
+
+   #projo{
+    color:#bbbbbb;
+    font-weight: 700;
+    font-size: 20px;
+    padding:10px 0;
+    }
+    .food-recipe{
+        border-radius: 10%;
+        width:400px;
+        height:250px;
+    }
+    .project1,.project2,.project3,.project4{
+        padding-bottom: 2rem;
+    }
   
    }   
 

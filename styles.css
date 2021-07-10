@@ -352,8 +352,14 @@ body, html{
         text-decoration: none;
         margin:0 0.5rem;
     } 
+    
 
 }
+
+
+
+
+
 
 
 
@@ -394,5 +400,18 @@ body, html{
         text-decoration: none;
         margin:0 3rem;
     } 
+    #blue, #thir{
+        font-size: 40px;
+    }
+    
+    .landing{
+       display: flex;
+       position: relative;
+       left:50%;
+       transform: translateX(-50%);
 
+    }
+    .landing-image{
+        margin-left: 20%;
+    }
 }

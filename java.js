@@ -1,7 +1,7 @@
-let closeBtn = document.querySelector('.fa-times');
+let closeBtn = document.querySelector('.close');
 let openBtn = document.querySelector('.fa-bars');
 let sideBarMenu = document.querySelector('.nav');
-let closeNow = document.querySelector('.close');
+// let closeNow = document.querySelector('.close');
 
 //open navbar
 openBtn.addEventListener('click', ()=>{
@@ -11,6 +11,6 @@ closeBtn.addEventListener('click', ()=>{
     sideBarMenu.style.width="0";
 })
 
-closeNow.addEventListener('click',()=>{
-    sideBarMenu.style.width="0";
-})
+// closeNow.addEventListener('click',()=>{
+//     sideBarMenu.style.width="0";
+// })

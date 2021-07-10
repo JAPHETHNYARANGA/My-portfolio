@@ -365,7 +365,7 @@ body, html{
 
 /* desktop screens and larger*/
 @media only screen and (min-width:1025px){
-
+  
     .fas{
         display:none;
     }
@@ -376,6 +376,7 @@ body, html{
         height:4rem;
         box-sizing: border-box;
         background-color: white;
+        width:100%;
         
     }
     
@@ -406,8 +407,7 @@ body, html{
     
     .landing{
        display: flex;
-       position: relative;
-       left:10%;
+       margin: 0 0 0 20rem;
        padding-bottom: 5rem;
        
 
@@ -446,8 +446,8 @@ body, html{
     .img1, .img2, .img3,.img4,.img5,.img6{
         display: flex;
         flex-direction: row;
-        position: relative;
-        left:20%;
+        margin: 0 0 0 20rem;
+       
     }
     #services{
         color:#bbbbbb;
@@ -474,5 +474,27 @@ body, html{
         left: 50%;
         transform: translateX(-50%);
     }
-   
+    /*footer section*/
+    .footer{
+        background-color:gray;
+         color:white;
+         font-weight: 700;
+         
+    }
+    .icons{
+        display: flex;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .fab, .far,.fas{
+        padding:20px;
+        margin-left: 10%;
+       
+      
+    }
+    #last{
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
 }

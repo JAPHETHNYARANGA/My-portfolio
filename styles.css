@@ -114,6 +114,7 @@ body, html{
    }
    #services{
        color:#bbbbbb;
+       font-weight: 700;
        font-size: 20px;
        padding:10px 0;
    }
@@ -148,7 +149,21 @@ body, html{
 
    /*footer*/
    .footer{
-       background-color:blue;
+       background-color:gray;
+        color:white;
+        font-weight: 700;
+        
+   }
+   .far, .fab ,.fas{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+   }
+   #last{
+       text-align: center;
+       color: black;
+       font-weight: 700;
+       bottom:0;
    }
   
    }   

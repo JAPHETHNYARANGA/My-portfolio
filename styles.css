@@ -358,7 +358,7 @@ body, html{
     
     .landing{
        display: flex;
-       margin: 0 0 0 10rem;
+       margin: 0 0 0 5rem;
        padding-bottom: 5rem;
        
 
@@ -397,14 +397,14 @@ body, html{
     .img1, .img2, .img3,.img4,.img5,.img6{
         display: flex;
         flex-direction: row;
-        margin: 0 0 0 20rem;
+        margin: 0 0 0 3rem;
        
     }
     #services{
         color:#bbbbbb;
         font-weight:700;
         font-size: 30px;
-        margin: 100px 0 0 100px;
+        margin: 100px 0 0 50px;
     }
 
     /* projects section */
@@ -439,7 +439,7 @@ body, html{
     }
     .fab, .far,.fas{
         padding:20px;
-        margin-left: 10%;
+        margin-left: 5%;
        
       
     }

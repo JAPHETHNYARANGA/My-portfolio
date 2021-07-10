@@ -418,4 +418,12 @@ body, html{
     .about,.service-h,.clients, .projects, .contact1{
         text-align: center;
     }
+    .about-text{
+        font-size: 30px;
+        color:gray;
+        text-align: center;
+    }
+    .about-image{
+        display: none;
+    }
 }

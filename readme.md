@@ -30,7 +30,7 @@ to contact the developer, you can email through: nyaranga4gmail.com
 ## Author
 JAPHETH WYCLIFFE NYARANGA  
 
-# lincense And Cpyright
+# lincense And Copyright
 This project is under MIT licence
 Copyright(c)2021 @JAPHETH NYARANGA
 

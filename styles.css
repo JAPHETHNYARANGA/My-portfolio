@@ -10,6 +10,10 @@ body, html{
 .nav{
     font-weight: 800;
 }
+
+.text-area {
+    resize: none;
+  }
 /* phone screens */
 @media only screen and (max-width:480px){
     
@@ -138,7 +142,7 @@ body, html{
  
     /*footer*/
     .footer{
-        background-color:gray;
+        background-color:#303030;
          color:white;
          font-weight: 700;
          
@@ -150,9 +154,19 @@ body, html{
     }
     #last{
         text-align: center;
-        color: black;
+        color: white;
         font-weight: 700;
     }
+    .icons{
+        color:#73c2fb;
+        font-size: small;
+        padding-top: 5%;
+        
+       }
+       .phone{
+           text-align: center;
+       }
+    /* projects section */
     #projo{
         color:#bbbbbb;
         font-weight: 700;
@@ -307,7 +321,7 @@ body, html{
 
    /*footer*/
    .footer{
-       background-color:gray;
+    background-color:#303030;
         color:white;
         font-weight: 700;
         
@@ -319,10 +333,19 @@ body, html{
    }
    #last{
        text-align: center;
-       color: black;
+       color: white;
        font-weight: 700;
    }
-
+   .icons{
+    color:#73c2fb;
+    font-size: small;
+    padding-top: 5%;
+    
+   }
+   .phone{
+       text-align: center;
+   }
+/*projects section*/
    #projo{
     color:#bbbbbb;
     font-weight: 700;
@@ -452,7 +475,7 @@ body, html{
     }
     /*footer section*/
     .footer{
-        background-color:gray;
+        background-color:#303030;
          color:white;
          font-weight: 700;
          
@@ -461,18 +484,23 @@ body, html{
         display: flex;
         text-align: center;
         margin-left: 30%;
+        color:#73c2fb;
     }
     .fab, .far,.fas{
         padding:20px;
-        margin-left: 5%;
+        margin-left: 3%;
        
       
     }
     #last{
         text-align: center;
-        color: black;
+        color: white;
         font-weight: 700;
     }
+    .phone{
+        margin: 1rem 0 0 1rem;
+    }
+    /*projects section*/
      #projo{
         color:#bbbbbb;
         font-weight: 700;
@@ -616,7 +644,7 @@ body, html{
     }
     /*footer section*/
     .footer{
-        background-color:gray;
+        background-color:#303030;
          color:white;
          font-weight: 700;
          
@@ -625,18 +653,23 @@ body, html{
         display: flex;
         text-align: center;
         margin-left: 30%;
+        color:#73c2fb;
     }
     .fab, .far,.fas{
         padding:20px;
-        margin-left: 10%;
+        margin-left: 5%;
        
       
     }
     #last{
         text-align: center;
-        color: black;
+        color: white;
         font-weight: 700;
     }
+    .phone{
+        margin: 1rem 0 0 1rem;
+    }
+    /*more projects section*/
     #projo{
         color:#bbbbbb;
         font-weight: 700;

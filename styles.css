@@ -19,6 +19,20 @@ body{
 .text-area {
     resize: none;
   }
+
+  .portfolio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #portfolio{
+    color:#73c2fb;
+    font-weight:700;
+    font-size: 30px;
+
+  }
 /* phone screens */
 @media only screen and (max-width:480px){
     

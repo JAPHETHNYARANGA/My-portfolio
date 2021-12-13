@@ -25,6 +25,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    height: 20%;
+    border-radius: 10%;
   }
 
   /* #portfolio{
@@ -38,6 +40,15 @@ body{
   } */
 /* phone screens */
 @media only screen and (max-width:480px){
+
+    .portfolio{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+      }
     
     .icon{
         position:fixed;
@@ -211,7 +222,15 @@ body{
 
 /* small tablet screens*/
 @media only screen and (max-width: 768px) and (min-width: 481px){
-    
+    .portfolio{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+      }
+
    .fas{
        position:relative;
        top:10px;
@@ -395,6 +414,15 @@ body{
 /*large tablet screens and laptops*/
 @media only screen and (max-width: 1024px) and (min-width: 769px){
    
+    .portfolio{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+      }
+
     .fas{
         display:none;
     }
@@ -556,7 +584,15 @@ body{
 /* desktop screens and larger*/
 @media only screen and (min-width:1025px){
    
-  
+    .portfolio{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+      }
+
     .fas{
         display:none;
     }

@@ -24,15 +24,18 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
   }
 
-  #portfolio{
+  /* #portfolio{
     color:#73c2fb;
     font-weight:700;
-    font-size: 30px;
+    font-size: 25px;
+    height: 50%;
+    width: 50%;
+    text-align: center;
 
-  }
+  } */
 /* phone screens */
 @media only screen and (max-width:480px){
     
